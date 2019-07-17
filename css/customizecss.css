@@ -1,0 +1,241 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .btn:not(:disabled):not(.disabled) {
+        background-color: #FFA500;
+    }
+
+    .counter1 {
+        margin-top: 20px;
+    }
+
+    .p {
+        margin-top: 20px;
+    }
+
+    .fotright {
+        background-color: #7DC900;
+        padding: 5px 3px;
+    }
+
+    .fotrightfull {
+        background-color: #283848;
+        overflow: hidden;
+        padding-bottom: 42px;
+    }
+
+    .leftimage {
+        width: 100%;
+        overflow: hidden;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .headerleft {
+        margin-left: 100px;
+        width: 100%;
+    }
+
+    .footerright {
+        margin-top: 20px;
+        float: left;
+        padding: 0px 20px;
+    }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .btn:not(:disabled):not(.disabled) {
+        background-color: #FFA500;
+    }
+
+    .w-50 {
+        width: 100% !important;
+    }
+
+    .leftcounting3 {
+        font-size: 15px;
+        width: 50%;
+        padding: 10px 20px;
+        float: left;
+    }
+
+    .leftcounting {
+        width: 50%;
+        font-size: 15px;
+        padding: 10px 20px;
+        float: left;
+    }
+
+    .rightcounting {
+        width: 50%;
+        font-size: 15px;
+        padding: 10px 20px;
+        float: right;
+    }
+
+    .footerheader {
+        overflow: hidden;
+        font-size: 20px;
+        border-bottom-color: rgb(109, 188, 219);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+    }
+
+    .rightcounting3 {
+        width: 50%;
+        font-size: 15px;
+        padding: 10px 20px;
+        float: right;
+    }
+
+    .fotrightfull {
+        background-color: #283848;
+        overflow: hidden;
+        padding-bottom: 42px;
+    }
+
+    .counter1 {
+        font-size: 15px;
+        background-color: rgb(125, 201, 0);
+        text-align: center;
+        padding: 12px 0px;
+        margin-bottom: 20px;
+    }
+
+    .counting {
+        overflow: hidden;
+    }
+
+    .leftcounting {
+        font-size: 15px;
+        width: 50%;
+    }
+
+    .rightcounting {
+        font-size: 15px;
+        width: 50%;
+    }
+
+    .leftcounting3 {
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .rightcounting3 {
+        font-size: 15px;
+        width: 50%;
+    }
+
+    .fotright button {
+        margin: 2px;
+        float: right;
+        border-radius: 10px;
+        background-color: transparent;
+        padding: 2px;
+    }
+
+    .footerright {
+        float: left;
+    }
+
+    .footerheader {
+        font-size: 20px;
+        overflow: hidden;
+    }
+
+    .footerright {
+        float: left;
+        margin-top: 20px;
+        padding: 0px 20px;
+    }
+
+    .fotright {
+        margin-top: 20px;
+        border-bottom-color: rgb(109, 188, 219);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        overflow: hidden;
+        padding: 5px 10px;
+    }
+
+    .fotright button {
+        background-color: transparent;
+        padding: 2px;
+        border-radius: 10px;
+        float: right;
+        margin: 0px 15px;
+        outline: none;
+    }
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .btn:not(:disabled):not(.disabled) {
+        cursor: pointer;
+        background-color: #FFA500;
+    }
+
+    .rightcounting {
+        float: right;
+        padding: 10px 20px;
+        font-size: 12px;
+        width: 50%;
+    }
+
+    .leftimage img {
+        background-color: rgb(215, 218, 219);
+        padding: 1px;
+        height: 177px;
+        width: 35%;
+        margin: 20px;
+        float: left;
+    }
+
+    .w-50 {
+        width: 100% !important;
+    }
+
+    .leftcounting3 {
+        font-size: 12px;
+        padding: 10px 20px;
+        float: left;
+        width: 50%;
+    }
+
+    .counter1 {
+        font-size: 12px;
+        background-color: rgb(125, 201, 0);
+        text-align: center;
+        padding: 12px 0px
+    }
+
+    .fotrightfull {
+        background-color: rgb(40, 56, 72);
+        padding-bottom: 42px;
+        overflow: hidden;
+    }
+
+    .footerend {
+        font-size: 15px;
+        padding-right: 0px;
+        margin-top: 20px;
+        float: left;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .fotrightfull {
+        background-color: rgb(40, 56, 72);
+        padding-bottom: 50px;
+        overflow: hidden;
+    }
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    ...
+}
